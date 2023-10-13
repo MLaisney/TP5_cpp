@@ -19,3 +19,9 @@ void Robots::utiliserLesGadgets(Heros &cible)
     cout << m_nomheros << " attaque avec une force de " << m_forcegadgets << endl;
     cible.diminuerVie(m_forcegadgets);
 }
+
+void Robots::afficher() const
+{
+    Heros::afficher();
+    cout << "Niveau des Gadgets : " << m_forcegadgets << endl;
+}
