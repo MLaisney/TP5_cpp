@@ -13,3 +13,9 @@ Humains::Humains(string nomheros, int vieheros, string nomarme, int puissancearm
 Heros(nomheros, vieheros, nomarme, puissancearme), m_forcepoing (forcepoing) // Constructeur avec tous les attributs à déterminer
 {
 }
+
+void Humains::coupDePoing(Heros &cible)
+{
+    cout << m_nomheros << " attaque avec une force de " << m_forcepoing << endl;
+    cible.diminuerVie(m_forcepoing);
+}

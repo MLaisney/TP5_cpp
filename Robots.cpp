@@ -13,3 +13,9 @@ Robots::Robots(string nomheros, int vieheros, string nomarme, int puissancearme,
 Heros(nomheros, vieheros, nomarme, puissancearme), m_forcegadgets (forcegadgets) // Constructeur avec tous les attributs à déterminer
 {
 }
+
+void Robots::utiliserLesGadgets(Heros &cible)
+{
+    cout << m_nomheros << " attaque avec une force de " << m_forcegadgets << endl;
+    cible.diminuerVie(m_forcegadgets);
+}

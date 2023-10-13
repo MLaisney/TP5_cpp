@@ -13,3 +13,9 @@ Siths::Siths(string nomheros, int vieheros, string nomarme, int puissancearme, i
 Heros(nomheros, vieheros, nomarme, puissancearme), m_coteobscur(coteobscur) // Constructeur avec tous les attributs à déterminer
 {
 }
+
+void Siths::utiliserLeCoteObscur(Heros &cible)
+{
+    cout << m_nomheros << " attaque avec une force de " << m_coteobscur << endl;
+    cible.diminuerVie(m_coteobscur);
+}
