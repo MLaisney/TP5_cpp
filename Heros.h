@@ -16,7 +16,7 @@ void diminuerVie(int vieenmoins);
 void attaquer(Heros &cible);
 bool vivant() const;
 virtual void afficher() const;
-static void afficher8Heros(Heros &cible1,Heros &cible2 ,Heros &cible3 ,Heros &cible4 ,Heros &cible4 ,Heros &cible6 ,Heros &cible7 ,Heros &cible8);
+static void afficher8Heros(Heros &cible1,Heros &cible2 ,Heros &cible3 ,Heros &cible4 ,Heros &cible5 ,Heros &cible6 ,Heros &cible7 ,Heros &cible8);
 };
 
 #include "Heros.cpp"
