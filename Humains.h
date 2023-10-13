@@ -12,4 +12,8 @@ public:
 private:
     int m_forcepoing;
 };
+
+#include "Humains.cpp"
+
+
 #endif

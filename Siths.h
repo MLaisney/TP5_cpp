@@ -12,4 +12,7 @@ public:
 private:
     int m_coteobscur;
 };
+
+#include "Siths.cpp"
+
 #endif

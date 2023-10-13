@@ -4,7 +4,7 @@
 #include <string>
 class Heros
 {
-private:
+protected:
 std::string m_nomheros; // Nom du héros
 int m_vieheros; // Niveau de vie du héros
 std::string m_nomarme; // Nom de l'arme
@@ -19,5 +19,9 @@ void afficher() const;
 };
 
 #include "Heros.cpp"
+#include "Jedis.cpp"
+#include "Siths.cpp"
+#include "Humains.cpp"
+#include "Robots.cpp"
 
 #endif

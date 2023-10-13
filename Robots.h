@@ -12,4 +12,7 @@ public:
 private:
     int m_forcegadgets;
 };
+
+#include "Robots.cpp"
+
 #endif

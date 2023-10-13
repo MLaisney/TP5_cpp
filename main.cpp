@@ -28,6 +28,37 @@ leia.afficher();
 solo.afficher();
 r2d2.afficher();
 c3po.afficher();
+cout << endl;
+
+yoda.attaquer(vador);
+vador.attaquer(luke);
+luke.attaquer(palpatine);
+palpatine.attaquer(yoda);
+leia.attaquer(vador);
+solo.attaquer(palpatine);
+r2d2.attaquer(vador);
+c3po.attaquer(palpatine);
+
+palpatine.utiliserLeCoteObscur(luke);
+vador.utiliserLeCoteObscur(yoda);
+leia.coupDePoing(palpatine);
+solo.coupDePoing(vador);
+r2d2.utiliserLesGadgets(palpatine);
+c3po.utiliserLesGadgets(vador);
+luke.utiliserLaForce(vador);
+yoda.utiliserLaForce(palpatine);
+cout << endl;
+
+// Affichage des informations des Heros
+yoda.afficher();
+luke.afficher();
+palpatine.afficher();
+vador.afficher();
+leia.afficher();
+solo.afficher();
+r2d2.afficher();
+c3po.afficher();
+cout << endl;
 
 return 0;
 }
