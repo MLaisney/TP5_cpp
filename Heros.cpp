@@ -1,9 +1,5 @@
 #include <stdio.h> 
 #include "Heros.h"
-#include "Jedis.h"
-#include "Siths.h"
-#include "Humains.h"
-#include "Robots.h"
 
 using namespace std;
 
