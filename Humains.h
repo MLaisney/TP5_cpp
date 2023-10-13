@@ -10,7 +10,4 @@ public:
 private:
     int m_forcepoing;
 };
-
-#include "Heros.cpp"
-
 #endif

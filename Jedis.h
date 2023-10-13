@@ -10,7 +10,4 @@ public:
 private:
     int m_force;
 };
-
-#include "Heros.cpp"
-
 #endif

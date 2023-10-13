@@ -10,7 +10,4 @@ public:
 private:
     int m_coteobscur;
 };
-
-#include "Heros.cpp"
-
 #endif

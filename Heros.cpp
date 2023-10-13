@@ -20,7 +20,8 @@ bool Heros::vivant () const // Savoir si le héros est vivant, true vivant et fa
 return (m_vieheros>0);
 }
 
-Heros::Heros(): m_nomheros("Inconnu"), m_vieheros (0) } // Constructeur sans attribut
+Heros::Heros(): m_nomheros("Inconnu"), m_vieheros (0) {}// Constructeur sans attribut
+
 Heros::Heros(string nomheros, int vieheros, string nomarme, int puissancearme) // Constructeur avec attribut
 {
 m_nomheros = nomheros;
