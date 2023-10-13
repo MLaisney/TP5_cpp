@@ -11,14 +11,14 @@ int main()
 {
 
 // Création des tous les objets Heros
-Heros yoda("Maitre Yoda", 260, "Sabre Laser", 50); 
-Heros luke("Luke Skywalker", 450, "Sabre Laser", 50); 
-Heros leia("Princesse Leia", 100, "Pistolet Laser", 30);
-Heros solo("Han Solo", 150, "Pistolet Laser", 30);
-Heros palpatine("Empereur Palpatine", 250, "Sabre Laser", 50); 
-Heros vador("Dark Vador", 400, "Sabre Laser", 50);
-Heros r2d2("R2D2", 50, "Pistolet Laser", 30);
-Heros c3po("C-3PO", 80, "Laser", 30);
+Jedis yoda("Maitre Yoda", 260, "Sabre Laser", 50); 
+Jedis luke("Luke Skywalker", 450, "Sabre Laser", 50); 
+Humains leia("Princesse Leia", 100, "Pistolet Laser", 30);
+Humains solo("Han Solo", 150, "Pistolet Laser", 30);
+Siths palpatine("Empereur Palpatine", 250, "Sabre Laser", 50); 
+Siths vador("Dark Vador", 400, "Sabre Laser", 50);
+Robots r2d2("R2D2", 50, "Pistolet Laser", 30);
+Robots c3po("C-3PO", 80, "Laser", 30);
 
 yoda.afficher();
 luke.afficher();
