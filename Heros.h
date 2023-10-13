@@ -15,7 +15,7 @@ Heros(std::string nomheros, int vieheros, std::string nomarme, int puissancearme
 void diminuerVie(int vieenmoins);
 void attaquer(Heros &cible);
 bool vivant() const;
-virtual void vivant() const;
+virtual void afficher() const;
 };
 
 #include "Heros.cpp"

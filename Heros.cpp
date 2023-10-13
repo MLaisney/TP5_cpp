@@ -1,9 +1,5 @@
 #include <stdio.h> 
 #include "Heros.h"
-#include "Jedis.h"
-#include "Siths.h"
-#include "Humains.h"
-#include "Robots.h"
 
 using namespace std;
 
@@ -36,6 +32,7 @@ m_puissancearme = puissancearme;
 
 void Heros::afficher() const // Méthode pour afficher les informations du héros
 {
+cout << "----------------------------" << endl;
 cout << "Héros : " << m_nomheros << "\tVie: " << m_vieheros << endl;
 cout << "Arme :"<< m_nomarme << "\tPuissance de l'Arme : " << m_puissancearme << endl; 
 
@@ -43,5 +40,4 @@ if (vivant() == true)
 cout << "Héros Vivant" << endl;
 else
 cout << "Héros Mort" << endl;
-cout << "----------------------------" << endl;
 }
