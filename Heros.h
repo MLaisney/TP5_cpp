@@ -19,9 +19,5 @@ void afficher() const;
 };
 
 #include "Heros.cpp"
-#include "Jedis.cpp"
-#include "Siths.cpp"
-#include "Humains.cpp"
-#include "Robots.cpp"
 
 #endif
