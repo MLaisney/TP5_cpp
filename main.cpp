@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
 
 // Création des tous les objets Heros
 Heros yoda("Maitre Yoda", 260, "Sabre Laser", 50); 
