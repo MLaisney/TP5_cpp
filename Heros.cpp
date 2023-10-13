@@ -11,7 +11,7 @@ m_vieheros=0;
 }
 void Heros::attaquer(Heros &cible) // Méthode pour attaquer un autre héros
 {
-cout << m_nomheros <<< " attaque " << cible.m_nomheros <<< endl; 
+cout << m_nomheros << " attaque " << cible.m_nomheros << endl; 
 cible.diminuerVie(m_puissancearme);
 }
 
@@ -32,7 +32,7 @@ m_puissancearme = puissancearme;
 void Heros::afficher() const // Méthode pour afficher les informations du héros
 {
 cout << "Héros : " << m_nomheros << "\tVie: " << m_vieheros << endl;
-cout << "Arme :"<<< m_nomarme << "\tPuissance de l'Arme : " << m_puissancearme << endl; 
+cout << "Arme :"<< m_nomarme << "\tPuissance de l'Arme : " << m_puissancearme << endl; 
 
 if (vivant() == true)
 cout << "Héros Vivant" << endl;

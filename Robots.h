@@ -11,4 +11,6 @@ private:
     int m_forcegadgets;
 };
 
+#include "Heros.cpp"
+
 #endif

@@ -15,5 +15,7 @@ void attaquer(Heros &cible);
 bool vivant() const;
 void afficher() const;
 };
+
 #include "Heros.cpp"
+
 #endif
