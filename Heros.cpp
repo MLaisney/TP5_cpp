@@ -41,3 +41,12 @@ cout << "Héros Vivant" << endl;
 else
 cout << "Héros Mort" << endl;
 }
+
+void Heros::afficher4Heros(Heros &cible1, Heros &cible2, Heros &cible3, Heros &cible4)
+{
+    cout << "Voici les informations de 4 Heros : " << endl;
+    cible1.afficher();
+    cible2.afficher();
+    cible3.afficher();
+    cible4.afficher();
+}
