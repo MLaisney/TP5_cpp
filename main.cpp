@@ -1,5 +1,9 @@
 #include <iostream>
 #include "Heros.h"
+#include "Jedis.h"
+#include "Siths.h"
+#include "Humains.h"
+#include "Robots.h"
 
 using namespace std;
 
@@ -15,6 +19,15 @@ Heros palpatine("Empereur Palpatine", 250, "Sabre Laser", 50);
 Heros vador("Dark Vador", 400, "Sabre Laser", 50);
 Heros r2d2("R2D2", 50, "Pistolet Laser", 30);
 Heros c3po("C-3PO", 80, "Laser", 30);
+
+yoda.afficher();
+luke.afficher();
+palpatine.afficher();
+vador.afficher();
+leia.afficher();
+solo.afficher();
+r2d2.afficher();
+c3po.afficher();
 
 return 0;
 }
