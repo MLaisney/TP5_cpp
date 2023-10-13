@@ -8,7 +8,7 @@ class Humains : public Heros
 public:
     Humains(std::string nomheros, int vieheros, std::string nomarme, int puissancearme);
     Humains(std::string nomheros, int vieheros, std::string nomarme, int puissancearme, int forcepoing);
-    void coupDePoing();
+    void coupDePoing(Heros &cible);
 private:
     int m_forcepoing;
 };
