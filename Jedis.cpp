@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "Jedis.h"
 #include <string>
+
 using namespace std;
+
 Jedis::Jedis(string nomheros, int vieheros, string nomarme, int puissancearme): 
 Heros(nomheros, vieheros, nomarme, puissancearme), m_force(100) // Constructeur avec les attributs du Heros à déterminer et m_force a 100
 {
