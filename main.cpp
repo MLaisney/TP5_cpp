@@ -60,5 +60,7 @@ r2d2.afficher();
 c3po.afficher();
 cout << endl;
 
+Heros::afficher4Heros(yoda, luke, palpatine, vador);
+
 return 0;
 }
